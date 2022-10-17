@@ -80,6 +80,16 @@
         font-size: 16px;
         line-height: 24px;
     }
+    .buttom-menu{
+        display: flex;
+        justify-content: space-between !important;
+        padding: 5px 0;
+        margin-top: 20px;
+        gap: 8px;
+    }
+    .footer-buttom{
+        text-align: center;
+    }
 }
 
 
