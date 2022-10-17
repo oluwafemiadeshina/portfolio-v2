@@ -41,6 +41,12 @@ line-height: 24px;
     gap: 26px;
 }
 
+.buttom-menu .nav-item .active {
+  color: #000;
+  background-color: transparent;
+  font-weight: 700;
+}
+
 .overlay {
     height: 100%;
     width: 0;
@@ -186,8 +192,6 @@ body {
   height: 40px;
   background-color: rgba(41, 41, 41, 0.5);
 }
-
-
 
 
 
