@@ -2,7 +2,7 @@ body,p,h1,h2,h3,h4,h5,h6,a{
     font-family: Barlow, Helvetica, sans-serif;
 }
 h2{
-    font-family: Barlow;
+font-family: Barlow;
 font-size: 36px;
 font-weight: 700;
 line-height: 43px;
@@ -102,15 +102,30 @@ text-align: left;
 }
 
 .container{
-    padding:0 20px;
+    padding:0 32px;
+}
+.row{
+    display: flex;
+    justify-content: space-between !important;
 }
 
+.btn{
+box-sizing: border-box;
+padding: 10px;
+gap: 10px;
+width: auto;
+height: 44px;
+border-bottom: 2px solid #4F4F4F;
+}
 
+.row div{
+    flex: 50%;
+}
 
-
-
-
-
+.col-md-6{
+    flex:0 0 auto;
+    width:50%
+}
 
 
 
