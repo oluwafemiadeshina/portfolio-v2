@@ -103,7 +103,15 @@ line-height: 24px;
     text-decoration: none;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
+.stroke{
+  border: 1px solid #BBBBBB;
+  border-radius: 3px;
+  padding: 22px 32px;
+}
 
+.bg-blue{
+  background: #514A9C;
+}
 
 .general-btn{
 box-sizing: border-box;
