@@ -48,3 +48,23 @@ function openNav() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
   }
+
+
+  //Photography tab
+  let badge = document.querySelectorAll(".badge");
+  console.log(badge);
+  badge.addEventListener('click', function(e) {
+    e.preventDefault(); 
+    alert("hello");
+  });
+
+  loadEventListeners();
+
+function loadEventListeners() {
+  badge.addEventListener('click', photo_Category);
+}
+
+function photo_Category(e){
+  e.preventDefault();
+  alert("hello");
+}
