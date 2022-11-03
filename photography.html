@@ -21,14 +21,14 @@
 <!-- *************************************************************************************** -->
 <div class="container-fluid" style="background-color:#fff;">
     <header class="navBar" id="navBar">
-      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+      <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
         <img src="./img/Logo.svg" width="250px" height="auto" alt="Logo"/>
       </a>
       <ul class="nav nav-pills">
         <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
         <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
-        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-        <li class="nav-item"><a href="resources.html" class="nav-link active" aria-current="page">Resources</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link active">About</a></li>
+        <li class="nav-item"><a href="resources.html" class="nav-link" aria-current="page">Resources</a></li>
         <li class="nav-item"><a href="#" class="nav-link">Resume</a></li>
       </ul>
       <div class="menu-icon" onclick="openNav()">
@@ -53,31 +53,176 @@
 
 <!-- ************************************* Hero Section *******************************************-->
 <div class="container my-5 pb-5">
-        <h2>Photography</h2>
-        <p>Here are some lovely pictures I have taken over the last 5 years with my 
-            Nokia X6.1 plus & iPhone 11</p>
-        <span class="badge" style="background-color:#fff;">Phone Photography</span>
-        <span class="badge" style="background-color:#fff;">Nokia X6.1 plus</span>
+        <h2>Photography 📷</h2>
+        <p>"Photography is a way of feeling, of touching, of loving. What you have caught on film is captured forever… It remembers little things, long after you have forgotten everything."    — Aaron Siskind</p>
+        <span class="badge" id="badge" style="background-color:#fff;">Phone Photography</span>
+        <span class="badge" style="background-color:#fff;">Still Life Photography</span>
         <span class="badge" style="background-color:#fff;">iPhone 11</span>
     
         <!-- Title --><br><br>
-        <span class="badge" style="background-color:#D4D4D4;">All</span>
-        <span class="badge" style="background-color:#fff;">Nature</span>
-        <span class="badge" style="background-color:#fff;">Food</span>
-        <span class="badge" style="background-color:#fff;">Tech</span>
-        <div class="row">
-            <div class="col-md-3" style="background-color:#212121;">
-                <hr class="p-5">
+        <div class="controls cat" id="cat">
+            <span class="badge control cat1" data-filter="all" style="background-color:#D4D4D4;">All</span>
+            <span class="badge control cat2" data-filter=".nature" style="background-color:#fff;">Nature</span>
+            <span class="badge control cat3" data-filter=".food" style="background-color:#fff;">Food</span>
+            <span class="badge control cat4" data-filter=".tech" style="background-color:#fff;">Tech</span>
+            <span class="badge control cat5" data-filter=".people" style="background-color:#fff;">People</span>
+        </div>
+        <div class="row text-white photo_container">
+            <div class="col-md-3 p-2 mix tech">
+                <div style="background-color:#212121;">
+                    <img src="./img/pics/tech_1.jpg" width="100%" />
+                </div>
             </div>
-            <div class="col-md-3" style="background-color:#212121;">
-                <hr class="p-5">
+            <div class="col-md-3 p-2 mix people">
+                <div style="background-color:#212121;">
+                    <img src="./img/pics/people_1.jpg" width="100%" />
+                </div>
             </div>
-            <div class="col-md-3" style="background-color:#212121;">
-                <hr class="p-5">
+            <div class="col-md-3 p-2 mix nature">
+                <div style="background-color:#212121;">
+                    <img src="./img/pics/nature_1.jpg" width="100%" />
+                </div>
             </div>
-            <div class="col-md-3" style="background-color:#212121;">
-                <hr class="p-5">
+            <div class="col-md-3 p-2 mix food">
+                <div style="background-color:#212121;">
+                    <img src="./img/pics/food_1.jpg" width="100%" />
+                </div>
             </div>
+            <div class="col-md-3 p-2 mix tech">
+                <div style="background-color:#212121;">
+                    <img src="./img/pics/tech_2.jpg" width="100%" />
+                </div>
+            </div>
+            <div class="col-md-3 p-2 mix people">
+                <div style="background-color:#212121;">
+                    <img src="./img/pics/people_2.jpg" width="100%" />
+                </div>
+            </div>
+            <div class="col-md-3 p-2 mix nature">
+                <div style="background-color:#212121;">
+                    <img src="./img/pics/nature_2.jpg" width="100%" />
+                </div>
+            </div>
+            <div class="col-md-3 p-2 mix food">
+                <div style="background-color:#212121;">
+                    <img src="./img/pics/food_2.jpg" width="100%" />
+                </div>
+            </div>
+
+            <div class="col-md-3 p-2 mix tech">
+                <div style="background-color:#212121;">
+                    <img src="./img/pics/tech_3.jpg" width="100%" />
+                </div>
+            </div>
+            <div class="col-md-3 p-2 mix people">
+                <div style="background-color:#212121;">
+                    <img src="./img/pics/people_3.jpg" width="100%" />
+                </div>
+            </div>
+            <div class="col-md-3 p-2 mix nature">
+                <div style="background-color:#212121;">
+                    <img src="./img/pics/nature_3.jpg" width="100%" />
+                </div>
+            </div>
+
+            <div class="col-md-3 p-2 mix tech">
+                <div style="background-color:#212121;">
+                    <img src="./img/pics/tech_4.jpg" width="100%" />
+                </div>
+            </div>
+            <div class="col-md-3 p-2 mix nature">
+                <div style="background-color:#212121;">
+                    <img src="./img/pics/nature_4.jpg" width="100%" />
+                </div>
+            </div>
+            <div class="col-md-3 p-2 mix food">
+                <div style="background-color:#212121;">
+                    <img src="./img/pics/food_4.jpg" width="100%" />
+                </div>
+            </div>
+
+            <div class="col-md-3 p-2 mix people">
+                <div style="background-color:#212121;">
+                    <img src="./img/pics/people_4.jpg" width="100%" />
+                </div>
+            </div>
+            <div class="col-md-3 p-2 mix tech">
+                <div style="background-color:#212121;">
+                    <img src="./img/pics/tech_5.jpg" width="100%" />
+                </div>
+            </div>
+
+            <div class="col-md-3 p-2 mix food">
+                <div style="background-color:#212121;">
+                    <img src="./img/pics/food_3.jpg" width="100%" />
+                </div>
+            </div>
+            <div class="col-md-3 p-2 mix people">
+                <div style="background-color:#212121;">
+                    <img src="./img/pics/people_5.jpg" width="100%" />
+                </div>
+            </div>
+            <div class="col-md-3 p-2 mix nature">
+                <div style="background-color:#212121;">
+                    <img src="./img/pics/nature_5.jpg" width="100%" />
+                </div>
+            </div>
+            <div class="col-md-3 p-2 mix food">
+                <div style="background-color:#212121;">
+                    <img src="./img/pics/food_5.jpg" width="100%" />
+                </div>
+            </div>
+
+            <div class="col-md-3 p-2 mix tech">
+                <div style="background-color:#212121;">
+                    <img src="./img/pics/tech_6.jpg" width="100%" />
+                </div>
+            </div>
+            <div class="col-md-3 p-2 mix people">
+                <div style="background-color:#212121;">
+                    <img src="./img/pics/people_6.jpg" width="100%" />
+                </div>
+            </div>
+            <div class="col-md-3 p-2 mix nature">
+                <div style="background-color:#212121;">
+                    <img src="./img/pics/nature_6.jpg" width="100%" />
+                </div>
+            </div>
+            <div class="col-md-3 p-2 mix food">
+                <div style="background-color:#212121;">
+                    <img src="./img/pics/food_6.jpg" width="100%" />
+                </div>
+            </div>
+
+
+            <div class="col-md-3 p-2 mix people">
+                <div style="background-color:#212121;">
+                    <img src="./img/pics/people_7.jpg" width="100%" />
+                </div>
+            </div>
+            <div class="col-md-3 p-2 mix nature">
+                <div style="background-color:#212121;">
+                    <img src="./img/pics/nature_7.jpg" width="100%" />
+                </div>
+            </div>
+
+
+            <div class="col-md-3 p-2 mix people">
+                <div style="background-color:#212121;">
+                    <img src="./img/pics/people_8.jpg" width="100%" />
+                </div>
+            </div>
+            <div class="col-md-3 p-2 mix nature">
+                <div style="background-color:#212121;">
+                    <img src="./img/pics/nature_8.jpg" width="100%" />
+                </div>
+            </div>
+            <div class="col-md-3 p-2 mix nature">
+                <div style="background-color:#212121;">
+                    <img src="./img/pics/nature_9.jpg" width="100%" />
+                </div>
+            </div>
+           
         </div>
 
 </div>
@@ -85,8 +230,40 @@
 
 
 
+<style>
+    a,a:hover{
+  color: #fff;
+  text-decoration: none !important;
+}
+</style>
 
-
+    <!-- ************************************* More about me Section **************************************-->
+    <div class="container">
+        <h2 class="text-center">More about me</h2>
+        <p class="text-center">Here are some things I do aside product design.</p>
+        <div class="row">
+            <div class="col-md-4">
+                <div class=" text-center p-5 mb-2" style="background-color: #000; color:#fff;">
+                    <h3>Coding</h3>
+                    <a href="coding.html"><span class="general-btn">View Projects</span></a>
+                </div>
+            </div>
+    
+            <div class="col-md-4">
+                <div class=" text-center p-5 mb-2" style="background-color: #000; color:#fff;">
+                    <h3>Graphics Design</h3>
+                    <a href="graphic_design.html"><span class="general-btn">View Designs</span></a>
+                </div>
+            </div>
+    
+            <div class="col-md-4">
+                <div class=" text-center p-5 mb-2" style="background-color: #000; color:#fff;">
+                    <h3>Photography</h3>
+                    <a href="photography.html"><span class="general-btn">View Photos</span></a>
+                </div>
+            </div>
+        </div><br><br><br><br>
+    </div>
 
 
 
@@ -97,7 +274,7 @@
             <div class="row my-5">
                 <div class="col-md-8">
                     <h1>
-                        Let’s talk <br>about your<br> goals.
+                        Let’s talk <br>about your<br> ideas.
                     </h1>
                     <span class="general-btn">Let’s Talk 
                         <span class="material-icons-outlined">arrow_right_alt</span>
@@ -136,5 +313,14 @@
 <script src='./js/bootstrap.min2.js'></script>
 <script  src="./js/script.js"></script>
 <script src="js/app.js"></script>
+<script src="./js/mixitup.min.js"></script>
+<script src="./js/scratch_categories.js"></script>
+<script>
+    var containerEl = document.querySelector('.photo_container');
+
+    var mixer = mixitup(containerEl);
+
+
+</script>
 </body>
 </html>
